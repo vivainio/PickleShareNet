@@ -72,6 +72,9 @@ Q: Why C# instead of F#?
 
 A: It was trivial enough to remain "fun" in C#. I'm using it in F# apps myself.
 
+Q: No way I'm adding a new nuget dependency for this small thing!
+
+A: That's okay. Just drop PickleShareNet.cs file to your project. Be advised that you need C# 7 at least.
 
 ## License
 
