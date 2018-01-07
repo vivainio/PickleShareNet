@@ -3,8 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>vivainio</Authors>
+    <Title>PickleShareNet - PickleShare for dotnet</Title>
     <Description>Simple file system driven "database" that stores JSON serialized objects as individual files. Spiritual inheritor of https://github.com/pickleshare/pickleshare legacy.</Description>
-    <RepositoryUrl>https://github.com/vivainio/PickleShareNet</RepositoryUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/vivainio/PickleShareNet/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/vivainio/PickleShareNet</PackageProjectUrl>
+    <Copyright>Ville Vainio</Copyright>
+    <PackageTags />
   </PropertyGroup>
 
   <ItemGroup>
