@@ -21,6 +21,8 @@ Typical use cases:
 https://www.nuget.org/packages/PickleShareNet/1.0.0
 
 
+## Usage
+
 Example use (see Test.cs for more):
 
 ```csharp
