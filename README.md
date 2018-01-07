@@ -1,6 +1,6 @@
 # PickleShareNet
 
-This is an implementation of the basic idea of [PickleShare Python package] (https://github.com/pickleshare/pickleshare) as netstandard2 library.
+This is an implementation of the basic idea of [PickleShare Python package](https://github.com/pickleshare/pickleshare) as netstandard2 library.
 
 Basic idea is that:
 
