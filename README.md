@@ -70,7 +70,7 @@ A: It sucks to maintain SQL schema for simple apps. Also, this is a 7kb DLL curr
 
 Q: Why C# instead of F#?
 
-A: It was trivial enough to remain "fun" in C#. I'm using it in F# apps myself.
+A: The implementation is so small that it would have looked pretty similar in F#. I'm using it in F# apps myself.
 
 Q: No way I'm adding a new nuget dependency for this small thing!
 
