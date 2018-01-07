@@ -11,6 +11,11 @@ with contested database)
 - The API is not async (turned out to be much faster as a synchronous version)
 - Caveat emptor. This probably still has bugs, but it's simple and short so you can fix them as you go
 
+Typical use cases:
+
+- Store configuration or incremental state in command line apps. It can be tedious to implement this manually
+- Backing store for small web apps with light throughput requirements (e.g. ones you run on localhost)
+
 Example use (see Test.cs for more):
 
 ```csharp
@@ -54,3 +59,10 @@ Assert.IsTrue(keys.Length == 1 && keys[0] == "long/path");
 ```
 
 
+## License
+
+MIT
+
+## Copyright
+
+Copyright (c) 2018 by Ville M. Vainio
