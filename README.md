@@ -16,6 +16,11 @@ Typical use cases:
 - Store configuration or incremental state in command line apps. It can be tedious to implement this manually
 - Backing store for small web apps with light throughput requirements (e.g. ones you run on localhost)
 
+## Installation
+
+https://www.nuget.org/packages/PickleShareNet/1.0.0
+
+
 Example use (see Test.cs for more):
 
 ```csharp
