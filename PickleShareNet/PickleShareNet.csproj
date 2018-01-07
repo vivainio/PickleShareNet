@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>vivainio</Authors>
+    <Description>Simple file system driven "database" that stores JSON serialized objects as individual files. Spiritual inheritor of https://github.com/pickleshare/pickleshare legacy.</Description>
+    <RepositoryUrl>https://github.com/vivainio/PickleShareNet</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
