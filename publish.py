@@ -4,10 +4,14 @@ import os,shutil
 
 def c(s):
     print(">",s)
-    os.system(s)
+    err = os.system(s)
+    assert not err
 
 shutil.rmtree("PickleShareNet/bin")
 shutil.rmtree("PickleShareNet/obj")
 
-os.chdir("PickleShareNet")
+os.chdir("Test")
+c("dotnet test")
+
+os.chdir("../PickleShareNet")
 c("dotnet pack -c Release")
