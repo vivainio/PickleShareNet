@@ -31,7 +31,7 @@ namespace PickleShareNet
                     var txt = File.ReadAllText(path);
                     return txt;
                 }
-                catch (IOException e)
+                catch (IOException)
                 {
                     Thread.Sleep(1);
                     counter++;
