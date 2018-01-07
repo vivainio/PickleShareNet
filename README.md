@@ -58,6 +58,20 @@ Assert.IsTrue(keys.Length == 1 && keys[0] == "long/path");
 
 ```
 
+## FAQ
+
+Q: Why did you write this in the first place?
+
+A: I'm using pickleshare (the python version) in tons of hand-rolled command line apps, and wanted similar experience for .net
+
+Q: Why not use SQLITE?
+
+A: It sucks to maintain SQL schema for simple apps. Also, this is a 7kb DLL currently with only NewtonSoft.Json as dependency
+
+Q: Why C# instead of F#?
+
+A: It was trivial enough to remain "fun" in C#. I'm using it in F# apps myself.
+
 
 ## License
 
